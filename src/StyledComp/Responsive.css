@@ -1,0 +1,202 @@
+.wrapper {
+  overflow: auto;
+}
+
+#main {
+  margin-left: 4px;
+}
+
+#leftsidebar {
+  float: none;
+  width: auto;
+}
+
+#menulist {
+  margin: 0;
+  padding: 0;
+  /* width: 50rem; */
+}
+
+.menuitem {
+  background: #CDF0F6;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  list-style-type: none;
+  margin: 4px;
+  padding: 2px;
+}
+
+@media screen and (min-width: 480px) {
+  #leftsidebar {
+    width: 200px;
+    float: left;
+  }
+
+  #main {
+    margin-left: 216px;
+  }
+
+  body {
+    background-color: green;
+  }
+
+}
+
+@media screen and (min-width: 150px) and (max-width: 319px) {
+  .menuitem {
+    background: rgb(86, 235, 201);
+  }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  .menuitem {
+    background: rgb(44, 84, 218);
+  }
+
+}
+
+@media screen and (max-width:500px)and (min-width: 320px) {
+  body {
+    text-align: center;
+    /* background-color: blue; */
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  body {
+    background-color: red;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 601px) {
+  body {
+    background-color: yellow;
+  }
+
+  #id1 {
+    width: 15rem;
+  }
+
+  #id2 {
+    width: 18rem;
+  }
+
+  #id3 {
+    width: 21rem;
+  }
+
+  #id4 {
+    width: 23rem;
+  }
+
+  #id5 {
+    width: 26rem;
+  }
+
+  .menuitem {
+    background: rgb(44, 84, 218);
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 602px) and (max-width: 767px) {
+  body {
+    background-color: rgb(44, 84, 218);
+  }
+
+  #id1 {
+    width: 25rem;
+  }
+
+  #id2 {
+    width: 28rem;
+  }
+
+  #id3 {
+    width: 31rem;
+  }
+
+  #id4 {
+    width: 33rem;
+  }
+
+  #id5 {
+    width: 36rem;
+  }
+
+  .menuitem {
+    background: yellowgreen;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background-color: cyan;
+  }
+
+  #id1 {
+    width: 35rem;
+  }
+
+  #id2 {
+    width: 38rem;
+  }
+
+  #id3 {
+    width: 41rem;
+  }
+
+  #id4 {
+    width: 43rem;
+  }
+
+  #id5 {
+    width: 46rem;
+  }
+
+  .menuitem {
+    background: darkgoldenrod;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  body {
+    background-color: green;
+  }
+
+  #id1 {
+    width: 45rem;
+  }
+
+  #id2 {
+    width: 48rem;
+  }
+
+  #id3 {
+    width: 51rem;
+  }
+
+  #id4 {
+    width: 53rem;
+  }
+
+  #id5 {
+    width: 56rem;
+  }
+
+  .menuitem {
+    background: darkgoldenrod;
+  }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  body {
+    background-color: aqua;
+  }
+}
